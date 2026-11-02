@@ -1,0 +1,8 @@
+# 构建产物
+/bin/
+*.test
+*.out
+coverage.txt
+
+# 本地存储数据（测试使用 t.TempDir()，此目录供手工调试）
+/data/
